@@ -19,7 +19,7 @@ public class CollectionsMain {
         System.out.println(javaStudents);
     }
 
-    private static class InMemoryStudentDAO implements StudentDAO{
+    private static class InMemoryStudentDAO implements StudentDAO {
 
         private InMemoryStudentDAO(Set<Student> students) {
 
@@ -31,7 +31,6 @@ public class CollectionsMain {
         }
 
     }
-
 
 
 }
